@@ -4,6 +4,11 @@ h1{
     padding-top: 30px;
     color: lavender;
 }
+
+a{
+    text-decoration: none;
+}
+
 .container{
     max-width: 1200px;
     padding: 0 15px;
@@ -37,7 +42,7 @@ h1{
 
 #footer{
     height: 100px;
-    background-color: rgb(68, 68, 82);
+    background-color: rgb(131, 131, 160);
 }
 
 .footer-wrap{
