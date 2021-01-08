@@ -1,0 +1,18 @@
+.container{
+    max-width: 1200px;
+}
+
+#header{
+    height: 100px;
+    background-color: darkcyan;
+}
+
+#content{
+    height: 400px;
+    background-color: rgb(197, 93, 188);
+}
+
+#footer{
+    height: 100px;
+    background-color: darkcyan;
+}
