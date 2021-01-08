@@ -20,7 +20,7 @@ h1{
 .wrap{
     display: flex;
 }
-.photo{
+.content-photo{
     width: 200px;
     height: 200px;
     margin: 10px;
@@ -38,4 +38,19 @@ h1{
 #footer{
     height: 100px;
     background-color: rgb(68, 68, 82);
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.footer-photo{
+    width: 50px;
+}
+
+.email{
+    padding-left: 10px;
 }
