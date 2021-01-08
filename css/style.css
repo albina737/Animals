@@ -1,18 +1,30 @@
+h1{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 30px;
+    color: lavender;
+}
 .container{
     max-width: 1200px;
+    padding: 0 15px 0 15px;
 }
 
 #header{
     height: 100px;
-    background-color: darkcyan;
+    background-color: rgb(214, 203, 255);
 }
+
+/* #header .container{
+    margin: auto;
+    border: 1px solid #000000;
+} */
 
 #content{
     height: 400px;
-    background-color: rgb(197, 93, 188);
+    background-color: rgb(192, 148, 212);
 }
 
 #footer{
     height: 100px;
-    background-color: darkcyan;
+    background-color: rgb(182, 181, 221);
 }
