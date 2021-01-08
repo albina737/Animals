@@ -6,25 +6,35 @@ h1{
 }
 .container{
     max-width: 1200px;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 
 #header{
     height: 100px;
-    background-color: rgb(214, 203, 255);
+    background-color: #004064;
+    background-image: url(../images/header/photo_2021-01-08_16-59-33.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
 }
+.wrap{
+    display: flex;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
 
-/* #header .container{
-    margin: auto;
-    border: 1px solid #000000;
-} */
-
+}
+.text{
+    padding-left: 20px;
+    margin: 10px;
+}
 #content{
-    height: 400px;
-    background-color: rgb(192, 148, 212);
+    min-height: 100vh;
+    background-color: rgb(91, 93, 119);
 }
 
 #footer{
     height: 100px;
-    background-color: rgb(182, 181, 221);
+    background-color: rgb(106, 105, 145);
 }
